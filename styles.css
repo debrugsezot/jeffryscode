@@ -1,0 +1,98 @@
+body {
+  font-family: "Merriweather", serif;
+}
+.background-header {
+  background-image: url("./images/jellyfish.jpg");
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#jellffy {
+  display: flex;
+  justify-content: center;
+  color: #18f0e9;
+  font-weight: bolder;
+  font-size: 300%;
+}
+.welcome-header {
+  background-image: url("./images/compass.jpg");
+}
+.skills {
+  background-color: #dcf7f7;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.compass-img {
+  height: 35vh;
+  margin-top: 96px;
+}
+.grid-header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 120px 1fr 1fr;
+  background-color: #dedede;
+  border-radius: 12%;
+}
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-item-3 {
+  margin-top: 20px;
+}
+.dog-img {
+  height: 200px;
+  border-radius: 50%;
+}
+#welcome {
+  width: 50vw;
+}
+#contact {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .compass-img {
+    height: 30vh;
+    margin-top: 130px;
+  }
+  #contact {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .compass-img {
+    height: 25vh;
+    margin-top: 150px;
+  }
+  #contact {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+@media (min-width: 1px) and (max-width: 992px) {
+  .compass-img {
+    height: 25vh;
+    padding: 0%;
+    margin: 0%;
+  }
+  .grid-header {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #compass2 {
+    height: 0vh;
+    padding: 0%;
+    margin: 0%;
+  }
+  #contact {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
